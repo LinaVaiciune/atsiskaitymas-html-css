@@ -357,7 +357,9 @@ footer .logo {
   margin-bottom: 15px;
 }
 
-footer .link-container {
+.footer-link-container {
+  display: flex;
+  width: 50%;
   margin-bottom: 30px;
 }
 
@@ -419,7 +421,7 @@ footer h4 {
     justify-content: space-between;
     gap: 20px;
   }
-  .link-column div {
+  .footer-link-column div {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
